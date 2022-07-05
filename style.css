@@ -1,0 +1,43 @@
+body{
+    font-family: 'Macondo', cursive;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+}
+.header{
+background-image: url(images/);
+display: flex;
+text-align: center;
+}
+.header img{
+    width: 50%;
+}
+section{
+    display: flex;
+    margin-bottom: 100px;
+}
+.orange-color{
+    color: orange;
+}
+.button{
+    padding: 10px 40px;
+    border-radius: 10%;
+    text-decoration: none;
+    color: rgb(41, 224, 81);
+    border: 10px 10px 10px 10px  solid rgb(51, 0, 255);
+    background-image: linear-gradient(rgb(255, 255, 255) orange);
+}
+#middle{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+}
+.recipies{
+    text-align: center;
+}
+.footer{
+    background-color: aqua;
+    text-align: center;
+}
+.image-border{
+    width: 70%;
+    border-radius: 20%;
+}
