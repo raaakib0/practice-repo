@@ -3,13 +3,25 @@ body{
         font-family: 'Poppins', sans-serif;
         font-weight: 700;
 }
+h1{
+    color: rgb(110, 109, 109);
+    font-size: 300%;
+    padding-top: 20px;
+}
+#header-left{
+margin-top: 10%;
+}
 .header{
-background-image: url(images/);
+width: 100%;
 display: flex;
-text-align: center;
+text-align: left;
+margin-left: 5%;
+margin-top: 5%;
+padding-inline: 10% 10%;
 }
 .header img{
-    width: 50%;
+    width: 80%;
+    padding-bottom: 20px;
 }
 section{
     display: flex;
@@ -19,16 +31,26 @@ section{
     color: orange;
 }
 .button{
-    padding: 10px 40px;
-    border-radius: 10%;
+
     text-decoration: none;
-    color: rgb(41, 224, 81);
-    border: 10px 10px 10px 10px  solid rgb(51, 0, 255);
-    background-image: linear-gradient(rgb(255, 255, 255) orange);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 187, 255));
+    padding: 10px 40px;
+    border-radius: 50%;
+    color: rgb(10, 10, 10);
 }
 #middle{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
+    margin: 0;
+}
+
+.third{
+    width: 100%;
+    display: flex;
+    border: 10px 20px;
+}
+.third div{
+text-align: center;
 }
 .recipies{
     text-align: center;
@@ -38,6 +60,8 @@ section{
     text-align: center;
 }
 .image-border{
-    width: 70%;
-    border-radius: 20%;
+    box-shadow: 10px 10px 10px 10px blue;
+    width: 100%;
+    border-radius: 30px;
+    image-resolution: 100%;
 }
